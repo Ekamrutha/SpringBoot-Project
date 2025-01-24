@@ -2,7 +2,9 @@ This is a Simple BANKING SERVICE APPLICATION developed based on Spring Boot in t
 In the first phase, account and customer CRUD API's were created using DAO and POJO without using any DB or DB Connection.
 
 <img width="1343" alt="Screenshot 2025-01-24 at 7 56 21 PM" src="https://github.com/user-attachments/assets/306049f9-6dae-49bd-940c-8f0fc27d8718" />
+
 Account API's:
+
 1. GET-http://localhost:8090/accounts -- get all the accounts
 2. GET-http://localhost:8090/accounts/1 (Here 1 is an example of account number) -- get the details of single account based on accnt no.
 3. POST-http://localhost:8090/accounts -- create a new account by passing account no, type and balance as a json object in request body.
